@@ -7,14 +7,14 @@
     <title>NUMBER ADDING PROJECT</title>
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://pyscript.net/latest/pyscript.css" />
-  
+        <script defer src="https://pyscript.net/latest/pyscript.js"></script>
         <link rel="stylesheet" href="https://pyscript.net/latest/pyscript.css" />
-
+<script defer src="https://pyscript.net/latest/pyscript.js"></script>
 </head>
 <body>
     <div class="card">
 
-        <h2 class="name">NUMBER GUESS GAME</h2>
+        <h2 class="name">NUMBER ADDING AND GIVING RANDOM NUMBERS</h2>
 
 
         
@@ -31,6 +31,6 @@
     </div>
     
 </div>
-<py-script src="app.py"></py-script>
+<py-script src="oyn.py"></py-script>
 </body>
 </html>

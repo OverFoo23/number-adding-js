@@ -1,0 +1,19 @@
+def computer_guess(x):
+    low = 1
+    high = x
+    feedback = ' '
+    
+    while feedback !='c':
+         guess = random.randint(low, high)
+         if low==high:
+            print(f"error aq{low},{high} a eşit olamaz yeniden başlat")
+            break 
+         else:
+            feedback=input(f"is the {guess} was to high if it was 'h' if it was lower then the {guess} 'l' if it was correct 'c':")
+            if feedback == 'h':
+                high=guess-1
+            elif feedback== 'l':
+                low=guess+1   
+
+
+computer_guess(100)
